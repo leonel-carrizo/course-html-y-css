@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <!--The tag action refers to the document, url where we want submit the infomation.
+        The method default is GET-->
+    <form action="resultados.html" method="get">
+        <div>
+            <!--This is the text-->
+            <label for="username">User Name</label>
+            <!--This space to write-->
+            <input name="username" id="username" type="text" >
+        </div>
+        <br>
+        <div>
+            <!--This is the text 'Password'-->
+            <label for="password">Password</label>
+            <!--This is the space to text the password-->
+            <input name="password" id="password" type="password" >
+        </div><br>
+        <div>
+            <!--This is the text 'Age'-->
+            <label for="email">What is your email</label>
+            <!--This is the space to text the Email-->
+            <input name="email" id="email" type="email" >
+        </div><br>
+        <div>
+            <!--This is the text 'Email'-->
+            <label for="age">How old are you</label>
+            <!--This is the space to text the Age-->
+            <input name="age" id="age" type="number" min="0" max="100" step="5">
+        </div>
+        <br>
+        <div>
+            <!--This is the text 'Birt Date'-->
+            <label for="birtDate">What is your birth date</label>
+            <!--This is the space to text the Birt Date-->
+            <input name="birtDate" id="birtDate" type="date">
+        </div>
+        <br>
+        <div>
+            <!-- Text Areas -->
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments" cols="30" rows="10" onmouseout=""></textarea>
+        </div><br>
+        <!--This is the button to send the information-->
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
