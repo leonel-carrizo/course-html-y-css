@@ -1,0 +1,52 @@
+/* Estilos para colores */
+.colores{
+    color: orangered;
+}
+
+.color-hexadecimal{
+    color: #87A330;
+}
+
+.color-rgb{
+    color: rgb(0, 7, 200);
+}
+
+.color-rgba{
+    color: rgba(10, 10, 10, 0.85);
+}
+
+/* fondos */
+.fondo{
+    background-color: cornflowerblue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFwORXriXJjFsASWQLFF6sh7CREAhgktVneA-14wthiw&s");
+    background-position: left bottom;
+
+}
+.fondo-interno{
+    background-color: cornflowerblue;
+    background-image: url("./imagenes/fondo-prueba.png");
+    background-position: left bottom
+}
+
+/* tamaños */
+.ancho{
+    background-color: rgb(194, 194, 22);
+    width: 100px;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /* border-top: none; */
+    padding: 10px 20px; /*espacio interno*/
+    /* padding: 10px 20px  30px 40px; */
+    margin: 10px 20px; /*Espacio exterior*/
+    /* margin: 10px 20px  30px 40px; */
+}
+

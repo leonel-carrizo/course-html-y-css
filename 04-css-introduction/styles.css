@@ -12,6 +12,26 @@ p {
     color: green;
     font-size: 12pt;
 }
+
+/* selector de id */
 #segunda-noticia{
-    
+    /* color: darkmagenta; */
+    font-size: 10pt;
 }
+
+/* selector de clase */
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/* Selector universal */
+*.warning{
+    color: red;
+}
+
+/* selector multiple */
+.autor, .fecha, .lugar, h1, #segunda-noticia {
+    text-decoration: underline;
+}
+
