@@ -1,7 +1,6 @@
-ul #elemento-1{
-    color: red;
-    font-size: 10rem;
-}
 #elemento-1{
     color: red;
+}
+ul li#elemento-1{
+    font-size: 2rem;
 }
