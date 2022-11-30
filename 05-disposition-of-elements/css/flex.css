@@ -1,0 +1,35 @@
+/* https://codepen.io/enxaneta/full/adLPwv -> propiedades de flexBox explicadas*/
+
+body{
+    background-color: whitesmoke;
+}
+
+/* Flex position: dispone los elemtos de forma ordenada uno al lado del otro */
+.flex {
+    display: flex;
+    flex-direction: column; /* Cmabia el sentido de la disposicion de las columnas*/
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around; /*Dimenciona el contenido en funsion de lo que tienen dentro cuando no se especifica su tamaño.*/
+    /* flex-wrap: wrap; */
+    align-items: flex-end; /*Alinea en función del contenido. Si no se le indica nada se expandira al tamaño del contenedor*/
+}
+
+.contenido-1{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-2{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-3{
+    background-color: rgb(152, 182, 192);
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
