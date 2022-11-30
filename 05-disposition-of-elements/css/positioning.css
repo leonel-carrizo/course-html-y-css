@@ -1,3 +1,44 @@
-body{
-    color: aquamarine
+div{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+/* relative se posiciona en relacion al posisionamientooriginal */
+.relative{
+    position: relative;
+    left: 80px;
+    margin-left: 80px;
+}
+
+/*fix position: queda fijo en la pantlla dependiendo de la posición que le apliquemos */
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    background-color: greenyellow;
+    z-index: 10;
+}
+
+/* Absolute position: se fija en funcion de su elemento padre, para posisionarlo en relación a otro elemento se debe establecer como elemento hijo de un elemento con posicionamiento relative */
+.absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.relative.container{
+    background-color: blue;
+    width: 300px;
+    height: 200px;
+}
+
+/* Sticky Postion: posiciona un meno siempre visible, se debe asignar la posición donde se desee que este pegado */
+.sticky{
+    background-color: burlywood;
+    position: sticky;
+    color: whitesmoke;
+    top: 0px;
+    z-index: 11;
 }
