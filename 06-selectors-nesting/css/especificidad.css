@@ -1,0 +1,22 @@
+/* (1. 0 . 0) */
+/* (0. 1 . 0) */
+/* (0. 0 . 1) */
+/* (0. 0 . 0) */
+
+
+h1#h1-id.h1-clase {
+    color: darksalmon;
+}
+
+.h1-clase {
+    color: yellow;
+}
+
+h1 {
+    color: blue o !important;
+    /* evitar el uso de el !importanta */
+}
+
+p {
+    color: red;
+}
