@@ -1,0 +1,61 @@
+h1 {
+	color: red;
+	font-size: 4rem;
+}
+
+p {
+	color: black;
+	font-size: 2rem;
+}
+
+/*  @media -> se puede indicar
+    que dispositiovos se veran afectadfos
+    por las condiciones indicadas.
+    por defecto = all -> todos.
+    También = screen -> pintando en una pantalla,
+    print -> accediendo a impresora.
+    speech ->
+*/
+/* @media print {
+    /* se indica que cuando se imprima
+    debe ser en azul
+    h1 {
+        color: blue;
+    }
+} */
+
+/* @media screen and (max-width: 576px)  */
+/*Equivale a all*/
+/* @media (min-width: 576px) 
+{
+    h1 {
+        color: blue;
+    }
+} */
+
+@media (min-width: 576px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* En función de la orientación del dispiositivo*/
+@media (orientation: landscape) and (min-height: 800px)
+{
+    p {
+        color: brown;
+    }
+}
+
+/*En función de la alura*/
+@media (min-height: 300px), (min-width: 1100px) {
+    h1 {
+        color: darksalmon;
+    }
+}
