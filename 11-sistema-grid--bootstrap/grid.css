@@ -1,0 +1,30 @@
+.row div{
+    padding: 1rem;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+.col {
+    background-color: coral;
+
+}
+.col-sm {
+    background-color: rebeccapurple;
+
+}
+.col-md {
+    background-color: blueviolet;
+
+}
+.col-lg {
+    background-color: purple;
+
+}
+.col-xl {
+    background-color: brown;
+
+}
+.col-xxl {
+    background-color: chocolate;
+
+}
