@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Forms 2</title>
+</head>
+
+<body>
+    <div class="container pt-4">
+
+        <form action="">
+            <!-- el row es solo para colapzar el codigo -->
+            <row>
+                <select class="form-select form-select-sm mb-3">
+                    <option selected>Click y selecciona una opcion</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <select class="form-select mb-3">
+                    <option selected>Click y selecciona una opcion</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <select class="form-select form-select-lg mb-3">
+                    <option selected>Click y selecciona una opcion</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                </select>
+                <select class="form-select mb-3" multiple size="2" disabled>
+                    <option selected>Click y selecciona una opcion</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </row>
+
+            <!-- checkbox selected -->
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked disabled>
+                <label class="form-check-label" for="flexCheckChecked">
+                    I agree with everything, take my money. I'm of age.
+                </label>
+            </div>
+
+            <!-- check radio -->
+            <div class="">
+                <div class="form-check mb-1 form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        I want send me spam.
+                    </label>
+                </div>
+                <div class="form-check mb-3 form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" disabled>
+                    <label class="form-check-label" for="flexRadioDefault">
+                        I don't want send me spam.
+                    </label>
+                </div>
+            </div>
+
+            <!-- boton submit -->
+            <button class="btn btn-primary mb-4" type="submit">Submit</button>
+
+            <!-- checkbox whit switch -->
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked">I'm sure, I agree with everything.</label>
+            </div>
+
+                <!-- Botón cambia segun selección -->
+            <div class="mt-4">
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                <label class="btn btn-outline-success" for="success-outlined">Yes, I want</label>
+                
+                <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+                <label class="btn btn-outline-danger" for="danger-outlined">I don't want</label>
+            </div>
+
+
+        </form>
+
+    </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</html>
