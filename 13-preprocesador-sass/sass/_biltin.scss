@@ -1,0 +1,31 @@
+//  https://sass-lang.com/documentation/
+@use "sass:string";
+@use "sass:math";
+
+// Funciones con strings
+@debug "hola";
+@debug string.index("helevtica Neue", "Neue");
+
+$string: "Helvetica";
+$newString: string.insert($string, " Bold", 10);
+
+@debug $newString;
+
+@debug string.length($newString);
+
+@debug string.slice($newString, 5, 9);
+
+@debug string.to-upper-case("Roboto Mono");
+@debug string.to-lower-case("Roboto Mono");
+
+@debug string.unique-id();
+
+// Funciones con números
+@debug math.$e;
+@debug math.$pi;
+
+@debug math.ceil(4.5);
+
+@debug math.clamp(1, 10, 6)
+
+// Ver documentación en la web para demás funciones y metodos.
